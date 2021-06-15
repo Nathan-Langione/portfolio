@@ -1,61 +1,135 @@
-*{
+/* *{
     outline: 1px dotted black;
+} */
+
+h4{
+    color: white;
+    background-color: grey;
+    margin: 0px;
     padding: 5px;
-
-
+    text-align: left;
 }
-
 
 div.container{
-    border: 3px solid red;
-    width: 780px;
-    min-height: 500px;
-    background-color: aquamarine;
+    width: 900px;
+    min-height: 200px;
+    background-color: purple;
+    display: inline-block;
 }
 
-
     div.container div.header{
-        border: 3px solid orange;
-        min-height: 50px;
-        
-
-
+        width: 900px;
     }
 
-
-    div.container div.nav{
-        border: 3px solid yellow;
-        width: 200px;
-        height: 300px;
-        display: inline-block;
-
-    }
-
-
-    div.container div.main{
-        border: 3px solid green;
-        width: 544px;
-        min-height: 300px;
-        display: inline-block;
-        vertical-align: top;
-
-
-    }
-        
-
-        div.container div.main div.box{
-            border: 3px solid blue;
-            width: 200px;
-            min-height: 50px;
-            display:inline-block;
+        div.container div.header div.bar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
             text-align: center;
-
+            background-color: white;  
 
         }
 
-    
+    div.container div.top{
+        height: 280px;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+        div.container div.top div.box{
+            width: 400px;
+            height: 273px;
+            text-align: left;
+            background-color: white;
+            margin: 10px;
+            
+        }
+            div.container div.top div.box img{
+                width: 400px;
+                border: 5px solid gray;
+            }
+        div.container div.top div.box  a{
+            color: black;
+        }
+
+    div.container div.middle{
+        height: 580px;
+        display: flex;
+        vertical-align: top;
+        justify-content: space-around;
+        background-color: aquamarine;
+        margin: 10px;
+    }
+        
+        div.container div.middle div.box{
+            width: 28%;
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            vertical-align: top;
+            background-color: yellow;
+        }
+
+            div.container div.middle div.part1 {
+                height: 400px;
+                margin: 10px;
+            }
+
+            div.container div.middle div.part2 {
+                vertical-align: top;
+                text-align: center;
+                height: 120px;
+            }
+
+            div.container div.middle div.part3 {
+                text-align: center;
+                height: 30px;
+            }
+
+            div.container div.middle div.box a{
+                color: white;
+                background-color: green;
+                text-decoration: none;
+                border-radius: 10px;
+                padding: 5px;
+                vertical-align: middle;
+            }
+            div.container div.middle div.box img{
+                width: 100%;
+            }
+
+            div.container div.middle div.box ul{
+                padding: 0;
+            }
+
+            div.container div.middle div.box li{
+                display: inline;
+                
+            }
+            
+            div.container div.middle div.box li img{
+                width: 30px;
+            }
+
     div.container div.footer{
-        border: 3px solid orange;
         min-height: 50px;
+        text-align: center;
+        background-color: white;
 
     }
+    
+        div.container div.footer ul{
+            display: inline;
+        }
+
+        div.container div.footer li{
+            display: inline;
+        }
+        
+        div.container div.footer img{
+            width: 20px;
+        }
+        div.container div.footer a{
+            color: black;
+        }
