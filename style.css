@@ -7,6 +7,7 @@ h4{
     text-align: left;
 }
 
+
 /* STYLING FOR MAIN CONTAINER */
 div.container{
     width: 1000px;
@@ -28,9 +29,10 @@ div.container{
             height: 30px;
         }
 
+
     /* STYLING FOR TOP CONTAINER */    
     div.container div.top{
-        height: 300px;
+        height: 280px;
         padding: 10px;
         display: flex;
         justify-content: space-between;
@@ -39,7 +41,8 @@ div.container{
         div.container div.top div.box{
             text-align: left;
             background-color: white;
-            width: 500px;
+            width: 550px;
+            height: 260px;
             
         }
             div.container div.top div.box  a{
@@ -50,7 +53,7 @@ div.container{
                 margin: 10px;
             }
             div.container div.top div.portpic img{
-                width: 439px;
+                height: 250px;
                 border: 5px solid gray;
             }
         
@@ -58,7 +61,7 @@ div.container{
 
     /* STYLING FOR MIDDLE CONTAINER */
     div.container div.middle{
-        height: 600px;
+        height: 630px;
         display: flex;
         vertical-align: top;
         justify-content: space-between;
@@ -77,7 +80,6 @@ div.container{
             }
             div.container div.middle div.part2 {
                 text-align: left;
-                height: fit-content;
             }
             div.container div.middle div.part3 {
                 text-align: center;
