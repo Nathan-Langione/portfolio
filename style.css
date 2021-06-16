@@ -36,14 +36,12 @@ div.container{
         padding: 10px;
         display: flex;
         justify-content: space-between;
-        
     }
         div.container div.top div.box{
             text-align: left;
             background-color: white;
             width: 550px;
-            height: 260px;
-            
+            height: 260px;   
         }
             div.container div.top div.box  a{
                 color: black;
@@ -129,8 +127,6 @@ div.container{
             display: flex;
             padding-left: 5px;
             padding-right: 5px;
-            
-            
         }        
         div.container div.footer img{
             height: 20px;
